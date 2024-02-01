@@ -1,0 +1,14 @@
+/***
+
+As Ersa is learning now, she wants to explore more and more. Tell Ersa to generate a multiplication table for number 5
+
+*/
+
+let i = 5;
+
+while (i <= 50) {
+    if (i % 5 == 0) {
+        console.log(i)
+    }
+    i++;
+}
